@@ -25,6 +25,20 @@ This project performs Exploratory Data Analysis (EDA) and Data Visualization on 
 Spotify dataset files:
 - tracks.csv
 - artists.csv
+- ## 📁 Dataset
+
+Download the dataset from Google Drive:
+
+👉 [Spotify Dataset (Download)](https://drive.google.com/file/d/1YtYpHPsIPjBKDyndwibncC69_iUTfAy2/view?usp=drive_link)
+
+After downloading, use direct download in your script like:
+
+```python
+import pandas as pd
+
+url = "https://drive.google.com/uc?export=download&id=1YtYpHPsIPjBKDyndwibncC69_iUTfAy2"
+tracks = pd.read_csv(url)
+
 
 ## How to Run
 1. Clone repository
